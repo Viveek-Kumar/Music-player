@@ -1,0 +1,298 @@
+/Basic color variables/
+:root{
+	--bg_color_1 : #070130;
+	--bg_color_2: #0d0065;
+	--bg_color_3: #222b5c;
+	--bg_music_bar: #2b2b2a;
+	--font_color_1: white;
+	--font_color_2: lightgrey;
+	--font_color_3 : #1DB954;
+}
+/End of variables section/
+@media only screen and (max-width: 900px){
+	#new-releases img{
+		height: 300px;
+		width: 200px;
+	}
+	#music-player-logo img{
+       height: 2.2rem;
+       width: 2.2rem;
+       margin-top: 0.5rem;
+	}
+	#music-player-name{
+		font-size: 0.8rem;
+	}
+	#user img{
+		height: 2.2rem;
+		width: 2.2rem;
+	}
+    #music-player-title-artist{
+    	font-size: 0.5rem;
+    }
+	#notifications{
+		font-size: 1rem;
+	}
+
+	#search-bar{
+		font-size: 1rem;
+	}
+	::placeholder{
+		font-size: 0.5rem;
+	}
+	nav{
+		margin-top: -11%;
+	}
+	main{
+		display: block;
+		width: 100%;
+	}
+	aside{
+	  margin-top: -9%;
+      width: 100%;
+      flex-direction: row;
+      margin-left: 2rem;
+	}
+	#aside-dropdown{
+		display: none;
+	}
+	#aside-title{
+		font-size: 1.5rem;
+	}
+	#new-releases img{
+		height: 40vh;
+	}
+	#queue-item{
+		width: 250px;
+		margin-right: 2rem;
+		margin-bottom: 1rem;
+	}
+    #queue-favourite{
+    	margin-left: 130px;
+	}
+	#genre-item{
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+	#artist-songs{
+		margin-top: 7%;
+	}
+	#artist-template{
+		height: auto;
+	}
+	#artist-image{
+		height: 300px;
+	}
+	#music-bar{
+    	height: 70px;
+    }
+	#music-icon{
+	    height: 40px;
+	    width: 40px;
+	    margin-top: 1rem;
+    }
+    #music-icon img{
+	    height: 40px;
+	    width: 40px;
+	}
+    #music-title{
+	    color: var(--font_color_1);
+	    font-family: sans-serif;
+	    font-size:0.5rem;
+	    margin-top: -35px;
+	    margin-left: 60px;
+    }
+    #music-title artist{
+	 color:lightgrey; 
+	 font-size:0.2rem;
+   }
+   #play-buttons{
+	   margin-top: -4%;
+       margin-left: 350px;
+       font-size: 0.8rem;
+       margin-top: -1.3rem;
+    }
+    #play-buttons i{
+	   padding-right: 1rem;
+    }
+    #progress-bar{
+	    height:3px;
+	    width:200px;
+	    background-color: var(--font_color_3);
+	    margin-left: 320px;
+	    margin-top:-1vh;
+	    border-radius: 2px;
+     }
+     #progress-bar-volume{
+	    height:2px;
+	    width:70px;
+	    background-color: var(--font_color_3);
+	    margin-left: -400px;
+	    margin-top:-1vh;
+	    border-radius: 2px;
+     }
+     #circle{
+     	font-size: 0.5rem;
+	    position: relative;
+	    top:-4px;
+	    left:-1px;
+    }
+    #circle-volume{
+     	font-size: 0.5rem;
+	    position: relative;
+	    top:-4px;
+	    left:-1px;
+    }
+    #favourite{
+	    margin-left: 5px;
+	    display: inline;
+    }
+    #remove{
+	    margin-left: 5px;
+        display: inline;
+     }   
+     #queue{
+	    display: inline;
+	    margin-left: 680px;
+	    font-size: 0.5rem;
+	    position: relative;
+	    bottom: 30%;
+    }
+
+    #start-time{
+	    display: inline;
+	    position: absolute;
+	    color: var(--font_color_2);
+	    font-family: sans-serif;
+	    position: relative;
+	    left:290px;
+	    top:2.5%;
+	    font-size: 0.5rem;
+    }
+    #end-time{
+	    display: inline;
+	    position: absolute;
+	    color: var(--font_color_2);
+	    font-family: sans-serif;
+	    font-size: 0.5rem;
+	    position: relative;
+	    left:520px;
+	    top:2.5%;
+    }
+    #icons i{
+	    margin-bottom: 0.5rem;
+	    margin-right: 1rem;
+   }
+}
+
+@media only screen and (max-width: 500px){
+	#new-releases img{
+		height: 100px;
+		width: 110px;
+	}
+    #music-bar{
+    	height: 70px;
+    }
+	#music-icon{
+	    height: 40px;
+	    width: 40px;
+	    margin-top: 1rem;
+    }
+    #music-icon img{
+	    height: 40px;
+	    width: 40px;
+	}
+    #music-title{
+	    color: var(--font_color_1);
+	    font-family: sans-serif;
+	    font-size:0.5rem;
+	    margin-top: -35px;
+	    margin-left: 60px;
+    }
+    #music-title artist{
+	 color:lightgrey; 
+	 font-size:0.2rem;
+   }
+   #play-buttons{
+	   margin-top: -3%;
+       margin-left: 220px;
+       font-size: 0.5rem;
+       margin-top: -1.3rem;
+    }
+    #play-buttons i{
+	   padding-right: 1rem;
+    }
+    #progress-bar{
+	    height:2px;
+	    width:150px;
+	    background-color: var(--font_color_3);
+	    margin-left: 200px;
+	    margin-top:-1vh;
+	    border-radius: 2px;
+     }
+     #progress-bar-volume{
+	    height:2px;
+	    width:70px;
+	    background-color: var(--font_color_3);
+	    margin-left: -700px;
+	    margin-top:-1vh;
+	    border-radius: 2px;
+     }
+     #circle{
+     	font-size: 0.5rem;
+	    position: relative;
+	    top:-4px;
+	    left:-1px;
+    }
+    #circle-volume{
+     	font-size: 0.5rem;
+	    position: relative;
+	    top:-4px;
+	    left:-1px;
+    }
+    #favourite{
+	    margin-left: 5px;
+	    display: inline;
+    }
+    #remove{
+	    margin-left: 5px;
+        display: inline;
+     }   
+     #queue{
+	    display: inline;
+	    margin-left: 380px;
+	    font-size: 0.5rem;
+	    position: relative;
+	    bottom: 23%;
+    }
+
+    #start-time{
+	    display: inline;
+	    position: absolute;
+	    color: var(--font_color_2);
+	    font-family: sans-serif;
+	    position: relative;
+	    left:175px;
+	    top:2.5%;
+	    font-size: 0.5rem;
+    }
+    #end-time{
+	    display: inline;
+	    position: absolute;
+	    color: var(--font_color_2);
+	    font-family: sans-serif;
+	    font-size: 0.5rem;
+	    position: relative;
+	    left:340px;
+	    top:2.5%;
+    }
+    #music-player-title-artist{
+    	font-size: 0.5rem;
+    }
+    #icons i{
+	    margin-bottom: 0.5rem;
+	    margin-right: 1rem;
+   }
+   #dropdown{
+   	margin-left: 300px;
+   }
+}
